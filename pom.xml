@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ly-register</module>
+        <module>ly-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
