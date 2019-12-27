@@ -7,6 +7,7 @@
     <modules>
         <module>ly-register</module>
         <module>ly-gateway</module>
+        <module>ly-item</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -52,6 +53,7 @@
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pageHelper.starter.version}</version>
             </dependency>
 
             <dependency>
@@ -70,7 +72,6 @@
                 <artifactId>spring-boot-configuration-processor</artifactId>
                 <optional>true</optional>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.github.tobato/fastdfs-client -->
             <dependency>
                 <groupId>com.github.tobato</groupId>
                 <artifactId>fastdfs-client</artifactId>
