@@ -15,7 +15,6 @@ public class ExceptionAdvice extends RuntimeException {
 
     @ExceptionHandler(CustomException.class)
     public ResponseEntity<ResultBean> saveExceptionAdvice(CustomException e){
-        ExceptionEnum exceptionEnum = e.getExceptionEnum();
         return ResponseEntity.status(e.getExceptionEnum().getStatus()).body(new ResultBean(e.getExceptionEnum()));
     }
 }
