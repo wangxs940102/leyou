@@ -1,6 +1,5 @@
 package com.leyou.advice;
 
-import com.leyou.exceptionenum.ExceptionEnum;
 import com.leyou.excetion.CustomException;
 import com.leyou.vo.ResultBean;
 import org.springframework.http.ResponseEntity;
