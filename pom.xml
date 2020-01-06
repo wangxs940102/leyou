@@ -8,7 +8,7 @@
         <module>ly-register</module>
         <module>ly-gateway</module>
         <module>ly-item</module>
-        <module>ly-utils</module>
+        <module>ly-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
