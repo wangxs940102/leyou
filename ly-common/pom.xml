@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.leyou.common</groupId>
-    <artifactId>ly-utils</artifactId>
+    <artifactId>ly-common</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
