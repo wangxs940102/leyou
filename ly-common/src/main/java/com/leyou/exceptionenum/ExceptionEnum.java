@@ -15,7 +15,8 @@ import lombok.NoArgsConstructor;
 public enum ExceptionEnum {
 
     Exception_Categroy_Not_Find(404,"商品分离信息不存在"),
-    EXCEPTION_Brand_IS_NULL(404,"未查询到品牌信息");
+    EXCEPTION_Brand_IS_NULL(404,"未查询到品牌信息"),
+    EXCEPTION_Save_Brand_Error(500,"新增品牌失败"),
     ;
     private int status;
     private String messages;
