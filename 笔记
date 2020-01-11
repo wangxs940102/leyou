@@ -1,6 +1,55 @@
 路由：理解为通过请求路径调用接口得过程
 网关：服务之间调用得一个关卡
 
+linux下安装nginx：
+nginx装装
+1.解压安装包：tar zxvf 压缩文件名称 -c /user/**    到指定目录
+例如：tar zxvf nginx-1.7.9.tar.gz -C /usr/local/bin
+
+2.查看结果
+cd /usr/local/bin
+ls
+
+3.安装gcc
+yum -y install gcc-c++
+
+4.安装最基础的模块 pcre-devel
+yum -y install pcre-devel
+
+5.安装gzip
+yum -y install zlib-devel
+
+6.编译
+./configure
+
+7.make
+make && make install
+
+8.查看进程  查看nginx是否启用
+ps -ef|grep nginx
+
+9.重启nginx命令
+./nginx -s reload
+
+10.安装lsof插件
+yum -y install lsof
+
+11.查看端口占用情况
+lsof -i:80
+
+12.查看根目录下的所有nginx
+find -name nginx
+
+13.CentOS 7.0默认使用的是firewall作为防火墙,关闭防火墙
+systemctl start firewalld.service           开启防火墙firewall
+firewall-cmd --state                        查看防火墙firewall运行状态
+firewall-cmd --add-port=80/tcp              启动后增加端口 通过规则
+
+14.访问成功
+注意：nginx.config配置文件
+修改nginx下配置文件时应注意nginx在那个路径下启动就修改该路径下的配置文件
+
+
 javaweb:基于java语言开发得互联网项目
 
 什么是ajax跨域请求：
