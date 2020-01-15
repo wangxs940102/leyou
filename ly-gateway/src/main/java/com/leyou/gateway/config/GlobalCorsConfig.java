@@ -1,4 +1,4 @@
-package com.leyou.config;
+package com.leyou.gateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,6 @@ import org.springframework.web.filter.CorsFilter;
 /**
  * 不好用，使用注解@CrossOrigin(origins = "http://manage.leyou.com") 代码本配置类
  */
-/*
 @Configuration
 public class GlobalCorsConfig {
     @Bean
@@ -40,4 +39,3 @@ public class GlobalCorsConfig {
         return new CorsFilter(configSource);
     }
 }
-*/
