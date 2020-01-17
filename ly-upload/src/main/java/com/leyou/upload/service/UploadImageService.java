@@ -2,16 +2,12 @@ package com.leyou.upload.service;
 
 import com.leyou.exceptionenum.ExceptionEnum;
 import com.leyou.excetion.CustomException;
-import com.leyou.upload.mapper.UploadImageMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
